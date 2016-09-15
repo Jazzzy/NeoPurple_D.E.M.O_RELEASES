@@ -10,9 +10,8 @@
 
 Here I will try to explain some things that I consider interesting about the work that it is currently in the D.E.M.O. and some things that will be implemented in the future. I plan to keep adding things to this document while implementing them into the game. It's possible that the newer releases may have content that is not yet explained here, don't worry, this document should be updated eventually, or not and I'm a liar.
 
-The releases of the D.E.M.O. can be found [here](https://github.com/Jazzzy/NeoPurple_D.E.M.O_RELEASES/releases) but for some reason GitHub decided to stop sorting them correctly, or at least in the way I expected so you will have to look for the last one. Sorry for giving you work already.
+The releases of the D.E.M.O. can be found [here](https://github.com/Jazzzy/NeoPurple_D.E.M.O_RELEASES/releases) but for some reason GitHub decided to stop sorting them correctly, or at least in the way I expected so you will have to look for the last one. Sorry for giving you work already :P .
 
-:P
 
 ## 1.- Introduction
 
