@@ -77,7 +77,7 @@ The first thing that we do with the image is to  **recolor the whole scene **. T
 
 This particular texture is generated using [this NES palette generator](http://drag.wootest.net/misc/palgen.html) made by draw but with some modifications to get some new colors used only on the Main Character. The palette generated  **does not have the usual NES colors **, it generates the colors that the old TVs showed when receiving a signal from the NES. The colors changed because the decoder of the system worked in YIQ color space and the whole process of conversion made the final colors look  **darker and desaturated ** on the screen.
 
-After that we apply a shaders that achieve a multitude of effects, I'll start by explaining this one:
+After that we apply a shader that achieves a multitude of effects, I'll start by explaining this one:
 
 ![Imgur](http://i.imgur.com/1Q5U09r.png)
 
