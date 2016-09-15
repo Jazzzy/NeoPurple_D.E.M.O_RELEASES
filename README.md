@@ -1,4 +1,6 @@
 
+![Imgur](https://github.com/Jazzzy/NeoPurple_D.E.M.O_RELEASES/blob/master/README_RESOURCES/NeoPurpleLogo.png)
+
 # NeoPurple's D.E.M.O.
 
 --------------------------------------
