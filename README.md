@@ -151,8 +151,8 @@ Some **poses and animations** of this character can be seen here:
 ![Imgur](http://i.imgur.com/bD6cCg2.png)
 ![Imgur](https://github.com/Jazzzy/NeoPurple_D.E.M.O_RELEASES/blob/master/README_RESOURCES/runningBack.gif)
 ![Imgur](https://github.com/Jazzzy/NeoPurple_D.E.M.O_RELEASES/blob/master/README_RESOURCES/runningFront.gif)
-![Imgur](https://github.com/Jazzzy/NeoPurple_D.E.M.O_RELEASES/blob/master/README_RESOURCES/runningLeft.gif)
 ![Imgur](https://github.com/Jazzzy/NeoPurple_D.E.M.O_RELEASES/blob/master/README_RESOURCES/runningRight.gif)
+![Imgur](https://github.com/Jazzzy/NeoPurple_D.E.M.O_RELEASES/blob/master/README_RESOURCES/runningLeft.gif)
 
 ## 5.- Notes
 
