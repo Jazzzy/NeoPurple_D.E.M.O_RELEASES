@@ -71,11 +71,11 @@ I have implemented some shaders for the CRT effect **both on the low-res camera 
 
 #### 3.2.1.- Low-Res Shaders
 
-The first thing that we do with the image is to  **recolor the whole scene **. This is done with a  **Color Correction LookUp shader ** that takes a  **2D image as a LookUp table ** for the colors and maps every color from the game to one of the colors allowed. This is the texture used on my game:
+The first thing that we do with the image is to  **recolor the whole scene**. This is done with a  **Color Correction LookUp shader** that takes a  **2D image as a LookUp table** for the colors and maps every color from the game to one of the colors allowed. This is the texture used on my game:
 
 ![Imgur](http://i.imgur.com/n3FQBup.png)
 
-This particular texture is generated using [this NES palette generator](http://drag.wootest.net/misc/palgen.html) made by draw but with some modifications to get some new colors used only on the Main Character. The palette generated  **does not have the usual NES colors **, it generates the colors that the old TVs showed when receiving a signal from the NES. The colors changed because the decoder of the system worked in YIQ color space and the whole process of conversion made the final colors look  **darker and desaturated** on the screen.
+This particular texture is generated using [this NES palette generator](http://drag.wootest.net/misc/palgen.html) made by draw but with some modifications to get some new colors used only on the Main Character. The palette generated  **does not have the usual NES colors**, it generates the colors that the old TVs showed when receiving a signal from the NES. The colors changed because the decoder of the system worked in YIQ color space and the whole process of conversion made the final colors look  **darker and desaturated** on the screen.
 
 After that we apply a shader that achieves a multitude of effects, I'll start by explaining this one:
 
