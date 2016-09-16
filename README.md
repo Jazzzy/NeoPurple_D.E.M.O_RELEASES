@@ -20,7 +20,7 @@ This is a personal project that serves as a platform to show some of the work th
 
 Loving video-games was one of the reasons that got me into studying Computer Science, which I'm finishing this year (2016-2017, if you read this on the future feel free to say hi on twitter or whatever Social Network is famous at the moment). I seemed to be pretty good at it and I tried to learn what I could to, maybe after a while, be able to help in the coding of a game. In the process of looking to learn how to make a game I discovered that I maybe could be able to do some other things related to game making.
 
-Some of the activities that I did when I was a kid proved to be very useful when making videogames. When I was little I spent a lot of time drawing, I loved to look at anime or comics and try to replicate the drawing style. I also have been kind of a musician my whole life. I started rocking the flute (yeah!) at a young age and then picked up the guitar and the bagpipe, both of which I keep playing today. That gave me some soft of foundation in music.
+Some of the activities that I did when I was a kid proved to be very useful when making videogames. When I was little I spent a lot of time drawing, I loved to look at anime or comics and try to replicate the drawing style. I also have been kind of a musician my whole life. I started rocking the flute (yeah!) at a young age and then picked up the guitar and the bagpipe, both of which I keep playing today. That gave me some sort of foundation in music.
 
 In this moment in my life I felt that I had some unusual array of abilities that allowed me to make a video-game all by myself. Sure, some things will be bad, I cannot draw like a real artist, I cannot compose and play like a real musician and I cannot animate like a real animator. I don't care that much about making a perfect game, I care about making the game that it's in my head and a game that I can say it's mine, something to show to someone and say with confidence that this is what I can do.
 
@@ -63,7 +63,7 @@ To make the main "Camera" two Unity cameras are used. One is a normal orthograph
 
 This second camera is a perspective camera that only sees this quad and It's output is rendered onto the screen. When doing this what we achieve is that the whole game works at low resolution and that all of the sprites and movements and all that are made in units that are equal to a pixel. This way we have a feel similar to old low-res games and TVs because we don't have sub-pixel movements. The sprites all have now one pixel per unit and don't need any scaling, everything looks exactly how it was drawn.
 
-This setup also allows our game to run on any sort of resolution without altering the real in-game resolution because the second "high-res" camera can render in any resolution we want it to, it will be always looking to the quad that shows the game in it's real resolucion.
+This setup also allows our game to run on any sort of resolution without altering the real in-game resolution because the second "high-res" camera can render in any resolution we want it to, it will be always looking to the quad that shows the game in its real resolucion.
 
 ### 3.2.- CRT Shaders
 
@@ -75,7 +75,7 @@ The first thing that we do with the image is to  **recolor the whole scene **. T
 
 ![Imgur](http://i.imgur.com/n3FQBup.png)
 
-This particular texture is generated using [this NES palette generator](http://drag.wootest.net/misc/palgen.html) made by draw but with some modifications to get some new colors used only on the Main Character. The palette generated  **does not have the usual NES colors **, it generates the colors that the old TVs showed when receiving a signal from the NES. The colors changed because the decoder of the system worked in YIQ color space and the whole process of conversion made the final colors look  **darker and desaturated ** on the screen.
+This particular texture is generated using [this NES palette generator](http://drag.wootest.net/misc/palgen.html) made by draw but with some modifications to get some new colors used only on the Main Character. The palette generated  **does not have the usual NES colors**, it generates the colors that the old TVs showed when receiving a signal from the NES. The colors changed because the decoder of the system worked in YIQ color space and the whole process of conversion made the final colors look  **darker and desaturated ** on the screen.
 
 After that we apply a shader that achieves a multitude of effects, I'll start by explaining this one:
 
