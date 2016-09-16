@@ -8,9 +8,9 @@
 --------------------------------------
 
 
-Here I will try to explain some things that I consider interesting about the work that it is currently in the D.E.M.O. and some things that will be implemented in the future. I plan to keep adding things to this document while implementing them into the game. It's possible that the newer releases may have content that is not yet explained here, don't worry, this document should be updated eventually, or not and I'm a liar.
+Here I will try to explain some things that I consider interesting about the work that it is **currently in the D.E.M.O.** and some things that will be **implemented in the future**. I plan to keep adding things to this document while implementing them into the game. It's possible that the newer releases may have content that is not yet explained here, don't worry, this document should be updated eventually, or not and I'm a liar.
 
-The releases of the D.E.M.O. can be found [here](https://github.com/Jazzzy/NeoPurple_D.E.M.O_RELEASES/releases) but for some reason GitHub decided to stop sorting them correctly, or at least in the way I expected so you will have to look for the last one. Sorry for giving you work already :P .
+The releases of the D.E.M.O. can be found [here](https://github.com/Jazzzy/NeoPurple_D.E.M.O_RELEASES/releases) but for some reason GitHub decided to stop sorting them correctly, or at least in the way I expected so you will have to look for the last one. Sorry for giving you work already :P.
 
 
 ## 1.- Introduction
@@ -20,7 +20,7 @@ This is a personal project that serves as a platform to show some of the work th
 
 Loving video-games was one of the reasons that got me into studying Computer Science, which I'm finishing this year (2016-2017, if you read this on the future feel free to say hi on twitter or whatever Social Network is famous at the moment). I seemed to be pretty good at it and I tried to learn what I could to, maybe after a while, be able to help in the coding of a game. In the process of looking to learn how to make a game I discovered that I maybe could be able to do some other things related to game making.
 
-Some of the activities that I did when I was a kid proved to be very useful when making videogames. When I was little I spent a lot of time drawing, I loved to look at anime or comics and try to replicate the drawing style. I also have been kind of a musician my whole life. I started rocking the flute (yeah!) at a young age and then picked up the guitar and the bagpipe, both of which I keep playing today. That gave me some sort of foundation in music.
+Some of the activities that I did when I was a kid proved to be very useful when making videogames. When I was little I spent a lot of time drawing, I loved to look at anime or comics and try to replicate the drawing style. I also have been kind of a musician my whole life. I started rocking the flute (yeah!) at a young age and then picked up the guitar and the bagpipe, both of which I keep playing today. That gave me some soft of foundation in music.
 
 In this moment in my life I felt that I had some unusual array of abilities that allowed me to make a video-game all by myself. Sure, some things will be bad, I cannot draw like a real artist, I cannot compose and play like a real musician and I cannot animate like a real animator. I don't care that much about making a perfect game, I care about making the game that it's in my head and a game that I can say it's mine, something to show to someone and say with confidence that this is what I can do.
 
@@ -33,20 +33,20 @@ Of course just drawing and making music is not something that can be plugged int
 
 ### 2.1.- Drawing and Animation
 
-I have learned all that I know about drawing from either doing it myself and the internet. I picked a Pixel Art style for this game because I thought it could speed up the process of making all of the assets. My knowledge about Pixel Art comes mainly from the [/r/PixelArt/](https://www.reddit.com/r/PixelArt/) subreddit. In there I saw people making the same mistakes that I was making and learned from the advice of the best redditors.
+I have learned all that I know about drawing from either doing it myself and the internet. I picked a **Pixel Art style** for this game because I thought it could speed up the process of making all of the assets. My knowledge about Pixel Art comes mainly from the [/r/PixelArt/](https://www.reddit.com/r/PixelArt/) subreddit. In there I saw people making the same mistakes that I was making and learned from the advice of the best redditors.
 
-As far as animation is concerned I have learned from some tutorials on YouTube like [this one from Mariel Cartwright](https://www.youtube.com/watch?v=Mw0h9WmBlsw) that does a great job at explaining some things that seem basic but that change the way your animations look by a huge amount. When animating my game and specificly the main character I looked into a game called [Hyper Light Drifter](http://www.heart-machine.com/) by Heart Machine, a game that has one of the most beautyful and fluid low-res animation seen to this day. I got the game and spent hours just looking at the character running while trying to draw the frames for my character. The two most notorious things that I learned from that game are the animations for the feet of the character and the waving of the clothing. I also made a similar amount of frames for those animations to try to mimic the fluidity created by their animators.
+As far as animation is concerned I have learned from some **tutorials on YouTube** like [this one from Mariel Cartwright](https://www.youtube.com/watch?v=Mw0h9WmBlsw) that does a great job at explaining some things that seem basic but that change the way your animations look by a huge amount. When animating my game and specificly the main character I looked into a game called [Hyper Light Drifter](http://www.heart-machine.com/) by Heart Machine, a game that has one of the most beautyful and fluid low-res animation seen to this day. I got the game and spent hours just looking at the character running while trying to draw the frames for my character. The two most notorious things that I learned from that game are the animations for the feet of the character and the waving of the clothing. I also made a similar amount of frames for those animations to try to mimic the fluidity created by their animators.
 
 ### 2.2.- Music
 
 The main inspiration for the music in the game (I'm writing this while no music is in the game, 
-It's being made, don't worry) is the soundtracks of Neo-Noir films like [Drive](http://www.imdb.com/title/tt0780504/), in fact I'm currently listening to this while I'm writing, I recommend you to put it on to get you on the right mood (You can just click on the image to get to the video).
+It's being made, don't worry) is the **soundtracks of Neo-Noir films** like [Drive](http://www.imdb.com/title/tt0780504/), in fact I'm currently listening to this while I'm writing, I recommend you to put it on to get you on the right mood (You can just click on the image to get to the video).
 
 
 [![Kavinsky - Nightcall](http://img.youtube.com/vi/MV_3Dpw-BRY/0.jpg)](http://www.youtube.com/watch?v=MV_3Dpw-BRY)
 
 
-I have also looked at some YouTube channels like [New Retro Wave](https://www.youtube.com/user/NewRetroWave) to get in the right mindset before composing, and of course while drawing or coding, dark retro music seems to be an alright companion when working.
+I have also looked at some **YouTube channels** like [New Retro Wave](https://www.youtube.com/user/NewRetroWave) to get in the right mindset before composing, and of course while drawing or coding, dark retro music seems to be an alright companion when working.
 
 
 ## 3.- CRT Effect
@@ -59,11 +59,11 @@ Huge thanks also to Ryan Nelson and his [Pixel Camera 2D](https://github.com/Rya
 
 ### 3.1.- Pixel Perfect Camera
 
-To make the main "Camera" two Unity cameras are used. One is a normal orthographic camera that renders the world at the game resolution (400x300 in this case). This is the camera that will behave as the main camera of the game, following the player and all of those things. The trick is that this camera does not render the output to the screen, the output is rendered to a render texture of the same size (400x300). This render texture is then painted onto a quad that is pointed by another camera.
+To make the main "Camera" **two Unity cameras are used**. One is a normal **orthographic camera** that renders the world at the game resolution (**400x300** in this case). This is the camera that will behave as the main camera of the game, following the player and all of those things. The trick is that this camera **does not render the output to the screen**, the output is rendered to a **render texture** of the same size (400x300). This render texture is then **painted onto a quad that is pointed by another camera**.
 
-This second camera is a perspective camera that only sees this quad and It's output is rendered onto the screen. When doing this what we achieve is that the whole game works at low resolution and that all of the sprites and movements and all that are made in units that are equal to a pixel. This way we have a feel similar to old low-res games and TVs because we don't have sub-pixel movements. The sprites all have now one pixel per unit and don't need any scaling, everything looks exactly how it was drawn.
+This second camera is a **perspective camera** that only sees this quad and It's output is rendered onto the screen. When doing this what we achieve is that the whole game works at low resolution and that all of the sprites and movements and all that are made in units that are equal to a pixel. This way we have a feel similar to old low-res games and TVs because we **don't have sub-pixel movements**. The sprites all have now **one pixel per unit** and don't need any scaling, everything looks exactly how it was drawn.
 
-This setup also allows our game to run on any sort of resolution without altering the real in-game resolution because the second "high-res" camera can render in any resolution we want it to, it will be always looking to the quad that shows the game in its real resolucion.
+This setup also allows our game to run on any sort of resolution without altering the real in-game resolution because the second "high-res" camera can render in any resolution we want it to, it will be always looking to the quad that shows the game in it's real resolucion.
 
 ### 3.2.- CRT Shaders
 
@@ -75,7 +75,7 @@ The first thing that we do with the image is to  **recolor the whole scene **. T
 
 ![Imgur](http://i.imgur.com/n3FQBup.png)
 
-This particular texture is generated using [this NES palette generator](http://drag.wootest.net/misc/palgen.html) made by draw but with some modifications to get some new colors used only on the Main Character. The palette generated  **does not have the usual NES colors**, it generates the colors that the old TVs showed when receiving a signal from the NES. The colors changed because the decoder of the system worked in YIQ color space and the whole process of conversion made the final colors look  **darker and desaturated ** on the screen.
+This particular texture is generated using [this NES palette generator](http://drag.wootest.net/misc/palgen.html) made by draw but with some modifications to get some new colors used only on the Main Character. The palette generated  **does not have the usual NES colors **, it generates the colors that the old TVs showed when receiving a signal from the NES. The colors changed because the decoder of the system worked in YIQ color space and the whole process of conversion made the final colors look  **darker and desaturated** on the screen.
 
 After that we apply a shader that achieves a multitude of effects, I'll start by explaining this one:
 
