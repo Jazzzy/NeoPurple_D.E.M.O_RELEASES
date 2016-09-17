@@ -48,6 +48,7 @@ It's being made, don't worry) is the **soundtracks of Neo-Noir films** like [Dri
 
 I have also looked at some **YouTube channels** like [New Retro Wave](https://www.youtube.com/user/NewRetroWave) to get in the right mindset before composing, and of course while drawing or coding, dark retro music seems to be an alright companion when working.
 
+Another very important source of inspiration is the work of the band [The Protomen](http://protomen.com/). I love the story and the feel of all three acts but I have some sort of weakness to **Act II**, especially to [Light Up The Night](https://www.youtube.com/watch?v=gkLvpt9Z3fA) and [The Hounds](https://www.youtube.com/watch?v=LChtBpTjvTY).
 
 ## 3.- CRT Effect
 
