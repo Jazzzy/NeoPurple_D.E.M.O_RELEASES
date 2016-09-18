@@ -133,9 +133,25 @@ What I do after that is to apply a **Vignetting Effect** in order to simulate so
 ![Imgur](http://i.imgur.com/Im3DU9b.png)
 
 
-Lastly I apply a **Fisheye Effect**  in order to get that barrel distortion. Without it the screen would be completely flat since the quad that the camera is recording is also flat. This effect can be seen on all the images that show the whole screen like the last one or this one:
+Now I apply a **Fisheye Effect**  in order to get that barrel distortion. Without it the screen would be completely flat since the quad that the camera is recording is also flat. This effect can be seen on all the images that show the whole screen like the last one or this one:
 
 ![Imgur](http://i.imgur.com/pAMkYqv.png)
+
+Before the last step I apply some light bloom to the center of the frame to highlight a little bit that area and simulate the fact that on old CRT screens you see the center brighter and the edges darker because of the angle of the light.  
+
+Lastly I create new Texture that has the final frame with 4 iterations of a Cone Tap blur applyed to it. The original unaltered frame is merged with the blurred one to get a distinct look that simulates the glass of old TV screens and combats some aggressive effects done before.
+
+Here you see a piece of the original frame:
+
+![Imgur](http://i.imgur.com/jUzaXSd.png)
+
+This is the blurred one:
+
+![Imgur](http://i.imgur.com/Veu5tRJ.png)
+
+And this is the merge of the two:
+
+![Imgur](http://i.imgur.com/tF4Pj2r.png)
 
 
 ## 4.- Art and Animation
